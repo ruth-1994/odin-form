@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'norse-bold'; /* Name your font family */
+    src: url('FONT/Norse-Bold.otf'); /* Ensure the file path is correct */
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .odinLogo-container {
+    background-image: url('image/olena-bohovyk-r0M9HrfJMBM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-container img {
+    width: 60px;
+  }
+  
+  h1.odin-title {
+    color: white;
+    font-size: 3rem;
+    margin-top: 10px;
+    font-family: 'norse-bold', sans-serif;
+  }
+  
+  .whole-body-container {
+    display: flex;
+     /* Allow better flexibility */
+  }
+  .col-wrap{
+    display: flex;
+    gap: 100px;
+  }
+  .col-wrap div{
+    margin: 10px;
+  }
+  .description-sec {
+    background-color: rgb(233, 233, 233);
+    padding: 20px; /* Better spacing */
+  }
+  
+  .description {
+    width: 80%;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .second-desc {
+    width: 70%;
+    padding: 20px; 
+    font-weight: bold;
+  }
+  
+  .form-sec {
+    margin: 20px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-sec-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Reduced gap for better spacing */
+  }
+  
+  label, input {
+    display: block;
+  }
+  
+  .form-sec-2 div {
+    margin: 10px 0;
+  }
+  
+  input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 3px;
+  }
+  
+  /* Focus styling */
+  input:focus {
+    border-color: rgb(3, 3, 138);
+    outline: none;
+    box-shadow: 0 0 5px rgba(3, 3, 138, 0.5);
+  }
+  
+  /* Valid input */
+  input:focus:valid {
+    border-color: rgb(4, 161, 4);
+    box-shadow: 0 0 5px rgba(4, 161, 4, 0.5);
+  }
+  
+  /* Invalid input */
+  input:focus:invalid {
+    border-color: rgb(219, 4, 4);
+    box-shadow: 0 0 5px rgba(219, 4, 4, 0.5);
+  }
+  
+  .btn-sec {
+    margin: 30px 20px;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    background-color: #596D48;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #596D48;
+  }
+  
